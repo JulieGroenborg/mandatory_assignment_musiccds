@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Music CDs</h1>
+    </header>
+    <main>
+        <section>
+            <form action="" id="theform">
+                <div>
+                    <label for="author">Author</label>
+                    <!-- Pattern does now allow only spaces in an empty field -->
+                    <input required type="text" name="author" id="author" pattern="^(?!\s*$).+">
+                </div>
+                <div>
+                    <label for="title">Title</label>
+                    <!-- Pattern does now allow only spaces in an empty field -->
+                    <input required type="text" name="title" id="title" pattern="^(?!\s*$).+">
+                </div>
+                <div>
+                    <label for="year">Year</label>
+                    <input required type="number" name="year" id="year">
+                </div>
+                <input type="submit" value="Add">
+            </form>
+        </section>
+        <section>
+            <table id="table">
+                <tr>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Slet</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+:root {
+    --primaryColor: rgb(76, 76, 173);
+    --secondaryColor: rgb(224, 224, 224);
+    --colorBlack: black;
+
+    --textWhite: rgb(241, 241, 241);
+
+    --fontSansSerif: sans-serif;
+
+    --widthSmall: 100px;
+    --widthLarge: 320px;
+
+    --paddingDeskt: 0.5em;
+}
